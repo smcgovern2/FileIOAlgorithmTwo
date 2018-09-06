@@ -22,7 +22,8 @@ public class FileOutput {
 
     public void fileWrite(String line) {
         try {
-            out.write(line+"\n");
+//            out.write(line+"\n");
+            out.write(line);
         }
         catch(Exception e) {
             System.out.println("File Write Error: " + fileName + " "  + e);
